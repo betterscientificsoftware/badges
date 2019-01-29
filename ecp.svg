@@ -1,0 +1,25 @@
+<svg height='20' width='80' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<linearGradient id='a' x2='0' y2='100%'>
+<stop offset='0' stop-color='#fff' stop-opacity='.7'></stop>
+<stop offset='.1' stop-color='#aaa' stop-opacity='.1'></stop>
+<stop offset='1' stop-opacity='.5'></stop>
+</linearGradient>
+<rect fill='#61aee0' height='20' rx='3' width='80'></rect>
+<rect fill='#356190' height='20' rx='3' width='60'></rect>
+<rect fill='#7e3b33' height='20' rx='3' width='40'></rect>
+<rect fill='#cb3735' height='20' rx='3' width='20'></rect>
+<path d='M58 0h4v20h-4z' fill='#356190'></path>
+<path d='M38 0h4v20h-4z' fill='#7e3b33'></path>
+<path d='M18 0h4v20h-4z' fill='#cb3735'></path>
+<rect fill='url(#a)' height='20' rx='3' width='80'></rect>
+<g fill='#fff' font-family='DejaVu Sans,Verdana,Geneva,sans-serif' font-size='11' text-anchor='middle'>
+<a id='link' target='_new' xlink:href='https://www.exascaleproject.org'>
+<text fill-opacity='.5' fill='#010101' x='31' y='15'>E</text>
+<text fill='#fff' x='30' y='14'>E</text>
+<text fill-opacity='.5' fill='#010101' x='41' y='15'>C</text>
+<text fill='#fff' x='40' y='14'>C</text>
+<text fill-opacity='.5' fill='#010101' x='51' y='15'>P</text>
+<text fill='#fff' x='50' y='14'>P</text>
+</a>
+</g>
+</svg>
