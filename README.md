@@ -9,6 +9,8 @@ They are free-to-use by members of the ECP community.
 
 Some Examples Mark put together using [shields.io](https://shields.io)
 
+* Using Shields basic mode (simpler than creating/storing our own svg as example above requires)
+  * ![](https://img.shields.io/badge/scale-eflops-brightgreen.svg)
 * Using Shields json endpoint...which refers to some json file somewhere.
   * ![Custom badge](https://img.shields.io/badge/endpoint.svg?style=plastic&url=https%3A%2F%2Fraw.githubusercontent.com%2Fexascaleproject%2Fbadges%2Fmaster%2Fllnl_logo_endpoint.json)
 * Using custom svg base64 encoded into the shields.io query string
