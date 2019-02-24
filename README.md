@@ -19,6 +19,7 @@ Some Examples Mark put together using [shields.io](https://shields.io). If you c
     * In above, icon intentionally extends outside of badge using *popout* style.
   * ![Custom badge](https://img.shields.io/badge/endpoint.svg?style=popout-square&url=https%3A%2F%2Fraw.githubusercontent.com%2Fexascaleproject%2Fbadges%2Fmaster%2Fanl_logo_endpoint.json)
     * In above, the svg needs to be scaled a tad larger (easily done) because here it is also using *popout* style but does not extend outside of badge. I am also using the *square* style which is intionally a tad larger than other badges.
+    * I wound up fiddling around a bit too much trying to adjust scaling and offset of the svg strings used here.
   * This also allows for the badges to be *dynamic* in that changing the underlying JSON endpoint file then results in changing the badge.
   * However, these tiny images are generated and cached on shields.io servers for a minimum of 300 seconds and so the soonest you may observe changes to an already existing rendered badge is after 300 seconds.
   * You can adjust the cache *life* of a badge on shields.io but the minimum is 300 seconds.
