@@ -13,7 +13,7 @@ Some Examples Mark put together using [shields.io](https://shields.io). If you c
   * ![](https://img.shields.io/badge/scale-eflops-brightgreen.svg)
   * This is simpler than creating/storing our own svg as example above does
 * Using Shields json endpoint...which refers to some json file somewhere.
-  * ![Custom badge](https://img.shields.io/badge/endpoint.svg?style=plastic&url=https%3A%2F%2Fraw.githubusercontent.com%2Fexascaleproject%2Fbadges%2Fmaster%2Fllnl_logo_endpoint.json)
+  * ![Custom badge](https://img.shields.io/badge/endpoint.svg?style=plastic&url=https%3A%2F%2Fraw.githubusercontent.com%2Fexascaleproject%2Fbadges%2Fmaster%2Fllnl_logo_endpoint.json) ![Custom badge](https://img.shields.io/badge/endpoint.svg?style=popout&url=https%3A%2F%2Fraw.githubusercontent.com%2Fexascaleproject%2Fbadges%2Fmaster%2Fornl_logo_endpoint.json)
   * This also allows for the badges to be *dynamic* in that changing the underlying JSON endpoint file then results in changing the badge.
   * However, these tiny images are generated and cached on shields.io servers for a minimum of 300 seconds and so the soonest you may observe changes to an already existing rendered badge is after 300 seconds.
   * You can adjust the cache *life* of a badge on shields.io but the minimum is 300 seconds.
